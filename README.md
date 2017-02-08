@@ -12,7 +12,7 @@ There 4 steps:
 
 3) Run the script and configure the encrypted network settings
 
-4) Wiremore will creat a connector script, that you can always run it whan you want to use this network, or you can put it in the /etc/rc.d/rc.local for automatic inicialization
+4) Wiremore will creat a connector script, that you can always run it when you want to use this network, or you can put it in the /etc/rc.d/rc.local for automatic inicialization
 # How can I help wiremore?
 Please improve the code if you can or if you got an idea, I would be very appreciate that. Recommend wiremore to your friends or anyone else.
 
