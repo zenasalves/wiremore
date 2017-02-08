@@ -1,5 +1,6 @@
 # wiremore
 Wiremore, it's a WPA/WPA2 wireless connection script creator
+
 If are in trouble for your GUI that can't connect to the internet, or if you haven't a GUI and uses a text-mode Linux, or even if you wanna to put a connection script at your rc.local for automatic connect to a WPA/WPA2 encrypted network, you need wiremore!
 # How can got it
 There 4 steps:
