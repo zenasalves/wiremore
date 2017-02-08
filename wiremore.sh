@@ -23,8 +23,11 @@ sudo chmod 777 $path/"$network".sh
 if [ -e $path/"$network".sh ]; then
 read -p "The $network's connection script has been created, would you like to run it now?[Y/n] " answer0
 case $answer0 in
-Y|y) $path/"$network".sh ;;
-N|n) echo "Bye"; exit ;;
+Y|y) echo "If the configurated network script doesn't work, that's probabily because your board interface it's busy with another network process, reboot the system and then run again"
+     sleep 2
+     $path/"$network".sh ;;
+N|n) echo "Bye"
+     exit ;;
 esac
 else
 echo "Unfortunately, the script couldn't be created"
